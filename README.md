@@ -1,2 +1,55 @@
-# test
-<img align="right" width="40" height="40" src="https://github.com/toti1911/test/blob/master/jirafa%20avatar.png">
+<img align="right" width="40" height="40" src="https://github.com/toti1911/test/blob/master/JSicon.png">
+# Welcome to the Javascript Team
+
+Welcome to AXA Bcn Javascript Team! You‘re about to become part of a world-class team of software engineering experts.
+Innovation lies at the heart of our culture and we need your talent and expertise to stay ahead of the curve.
+We would like this to be a zone of sharing and consulting where all the collaborators can solve their doubts about
+how we are working as a team and some knowledge about the different projects that we are working on.
+
+Also we would like to share knowledge through code examples and best practises so everyone can improve.
+
+## Getting started
+
+The first thing you should do is consult the section [Accounts](./docs/accounts.md) to be sure that you will have all the permissions that you need to continue.
+
+### Development tools and workstation setup
+
++ Install [Node.js](https://nodejs.org/en/download/)
++ Install [NVM](https://github.com/creationix/nvm) in order to be able to switch between NodeJS versions.
++ Configure NPM Private repository access: [Guide](https://axagroupsolutions.atlassian.net/wiki/display/AGSD/Using+Artifactory+as+NPM+private+registry)
+
+Test environment:
+
+```bash
+git clone https://github.com/AXA-GROUP-SOLUTIONS/amf-commons-node.git
+cd amf-commons-node.git
+npm install
+```
+
++ Install MongoDB [Guide](https://docs.mongodb.com/v3.2/administration/install-community/)
++ Setup Windows 10 for Modern/Hipster Development [Guide](https://github.com/felixrieseberg/windows-development-environment)
+
+### Allowed tools
+
+#### IDEs
++ Visual Studio Code [Download](https://code.visualstudio.com/)
+
+Any other tool is not allowed (for example Sublime text)
+
+Alternative:
++ Webstorm: Javascript IDE (we have licenses, please ask for it) [Download](https://www.jetbrains.com/webstorm/download/)(ask for your license to Service Desk)
+
+
+#### Communication
+
++ [Slack](https://slack.com/downloads/osx)
++ Lync
+
+### other recommended tools
+
++ SourceTree: Git client [Download](https://www.sourcetreeapp.com/)
+
+Configure eslint hook. [Guide](https://axagroupsolutions.atlassian.net/wiki/display/AGSD/HOW+TO+Configure+ESLint+in+GIT+hook)
+
++ conEmu:  Windows console emulator with tabs [Download](https://sourceforge.net/projects/conemu/)
++ Robomongo: Native and cross-platform MongoDB manager [Download](https://robomongo.org/download)
