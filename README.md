@@ -1,18 +1,20 @@
-<img align="right" width="40" height="40" src="https://github.com/toti1911/test/blob/master/JSicon.png">
-# Welcome to the Javascript Team
 
-Welcome to AXA Bcn Javascript Team! You‘re about to become part of a world-class team of software engineering experts.
+
+# Welcome to the Javascript Team <img width="40" height="40" src="https://github.com/toti1911/test/blob/master/JSicon.png">
+
+Welcome to AXA Bcn Javascript Team! :raised_hands: You‘re about to become part of a world-class team of software engineering experts.
 Innovation lies at the heart of our culture and we need your talent and expertise to stay ahead of the curve.
 We would like this to be a zone of sharing and consulting where all the collaborators can solve their doubts about
 how we are working as a team and some knowledge about the different projects that we are working on.
 
-Also we would like to share knowledge through code examples and best practises so everyone can improve.
+Also we would like to share knowledge through **code examples** and **best practises** so everyone can improve.
 
 ## Getting started
+![Getting started] (https://media.giphy.com/media/oS8pRFxbD0d44/giphy.gif)
 
-The first thing you should do is consult the section [Accounts](./docs/accounts.md) to be sure that you will have all the permissions that you need to continue.
+:one: The first thing you should do is consult the section [Accounts](./docs/accounts.md) to be sure that you will have all the permissions that you need to continue.
 
-### Development tools and workstation setup
+### Development tools and workstation setup :wrench:
 
 + Install [Node.js](https://nodejs.org/en/download/)
 + Install [NVM](https://github.com/creationix/nvm) in order to be able to switch between NodeJS versions.
