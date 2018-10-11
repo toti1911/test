@@ -9,10 +9,13 @@ how we are working as a team and some knowledge about the different projects tha
 
 Also we would like to share knowledge through **code examples** and **best practises** so everyone can improve.
 
-1. [ Dev tools ](#desc)
-2. [ Code Style guide ](#style)
-3. [ Commits & Branchs ](#commits)
-2. [ Proxy ](#proxy)
+1. [ Dev tools :wrench: ](#desc)
+2. [ Code Style guide :pencil:](#style)
+3. [ Commits & Branchs :eyes:](#commits)
+4. [ Proxy :gun:](#proxy)
+5. [ AXA Libraries & Projects :notebook:](#projects)
+6. [ OpenPaaS :rocket:](#openpaas)
+7. [ Collaborators ::muscle: ](#collaborators)
 
 <a name="desc"></a>
 ## Getting started
@@ -133,48 +136,47 @@ ALL_PROXY=http://192.168.62.5:3128 brew install <name>
 ```bash
 sudo gem install --http-proxy http://192.168.62.5:3128 --https-proxy https://192.168.62.5:3128 <gema>
 ```
-
-
-### AXA libraries
-
-+ [amf-commons](https://github.com/AXA-GROUP-SOLUTIONS/amf-commons-node)
-+ TBC
-
 ### JavaScript transpilers/compilers
 
 + Babel
 + TypeScript
 
+<a name="desc"></a>
+### AXA libraries
+
++ [amf-commons](https://github.com/AXA-GROUP-SOLUTIONS/amf-commons-node)
++ TBC
+
 ## Projects
 
 Check [our projects list](./docs/projects.md) out.
 
+<a name="openpaas"></a>
 ## OpenPaaS
 
 Check [a list of OpenShift bash scripts to use in your terminal](./scripts/openshift).
 
+<a name="collaborators"></a>
 ## Collaborators
 
 | Name                      | Github account |  Email                                        | Current project |
 |---------------------------|----------------|-----------------------------------------------|-----------------|
-| Beatriz Martín de Juan    | [bmdjuan](https://github.com/bmdjuan) | beatriz.martin@axa-groupsolutions.com    | IceBox |
-| Luis Prieto Fernández     | [luisprieto-sp](https://github.com/luisprieto-sp) | luis.prieto.sopra@axa-groupsolutions.com | AUTO Bot |
-| Artem Pasichnyk           | [artemidas](https://github.com/artemidas) | artem.pasichnyk.amaris@axa-groupsolutions.com  | OpenPass |
-| Silvia de León            | [sleongonzalez](https://github.com/sleongonzalez) | silvia.leon.sopra@axa-groupsolutions.com | MyAXA |
-| Oriol Homedes del Barrio  | [oriol-homedes](https://github.com/oriol-homedes) | oriol.homedes.pasiona@axa-groupsolutions.com | AXA France Websites (Live, HR, Prevention, Mediazone, Newstoprotect) |
-| Fran Herrero Pérez        | [franher](https://github.com/franher) | francisco.herrero@axa-groupsolutions.com | Mobile Backend & MANA |
-| Jose Lara de Lamo         | [jose-lara](https://github.com/jose-lara) | jose.lara.sopra@axa-groupsolutions.com | Reparadores Bot |
-| F. Javier Romero Yesares  | [fromeroy](https://github.com/fromeroy) | francisco.romero.altran@axa-groupsolutions.com | EB Partners |
-| Santi Pérez  | [santiago-perez](https://github.com/santiago-perez) | santiago.perez.altran@axa-groupsolutions.com | MyAXA |
-| Javier Blanco Martinez    | [javierblancosp](https://github.com/javierblancosp) | javier.blanco@axa-groupsolutions.com | Mobile Backend & MANA |
-| Xavier Redondo Bolet      | [Xavier-Redondo](https://github.com/Xavier-Redondo) | xavier.redondo@axa-groupsolutions.com | AXA Home |
-| Julius Suominen           | [julius-jouninpoika](https://github.com/julius-jouninpoika) | julius.jouninpoika.sopra@axa-groupsolutions.com | Vida Bot |
-| Jesús Seijas              | [jesus-seijas](https://github.axa.com/jesus-seijas) | jesus.seijas@axa-groupsolutions.com |     |
-| Francisca Calabria | [FCalabria](https://github.com/FCalabria) | francisca.calabria@axa-groupsolutions.com    | AXA Advice (Berater) |
-| Iván Megías | [Ivan-megias](https://github.com/ivan-megias) | ivan.megias.altran@axa-groupsolutions.com  | EB Partners |
-| Martín Palmieri | [Martin-palmieri](https://github.com/martin-palmieri) | martin.palmieri.amaris@axa-groupsolutions.com  | EB Partners |
-| Ana Gamito | [Ana-gamito](https://github.com/ana-gamito) | ana.gamito@axa.com  | AXA LIVE - HR |
-| Juan Carlos Yamacho   | [jcyamacho-axa](https://github.com/jcyamacho-axa) | juan-carlos.yamacho.altran@axa-groupsolutions.com    | Actor |
-| Andrea Martins   | [martinsandrea](https://github.com/martinsandrea) | andrea.martins.altran@axa-groupsolutions.com    | AxaLive |
-| Eric Lara   | [eric-lara-altran](https://github.com/eric-lara-altran) | eric.lara.altran@axa-groupsolutions.com    | OpenPass |
+| :woman:Beatriz Martín de Juan    | [bmdjuan](https://github.com/bmdjuan) | beatriz.martin@axa-groupsolutions.com    | IceBox |
+| :man:Luis Prieto Fernández     | [luisprieto-sp](https://github.com/luisprieto-sp) | luis.prieto.sopra@axa-groupsolutions.com | AUTO Bot |
+| :man:Artem Pasichnyk           | [artemidas](https://github.com/artemidas) | artem.pasichnyk.amaris@axa-groupsolutions.com  | OpenPass |
+| :woman:Silvia de León            | [sleongonzalez](https://github.com/sleongonzalez) | silvia.leon.sopra@axa-groupsolutions.com | MyAXA |
+| :man:Oriol Homedes del Barrio  | [oriol-homedes](https://github.com/oriol-homedes) | oriol.homedes.pasiona@axa-groupsolutions.com | AXA France Websites (Live, HR, Prevention, Mediazone, Newstoprotect) |
+| :man:Fran Herrero Pérez        | [franher](https://github.com/franher) | francisco.herrero@axa-groupsolutions.com | Mobile Backend & MANA |
+| :man:Jose Lara de Lamo         | [jose-lara](https://github.com/jose-lara) | jose.lara.sopra@axa-groupsolutions.com | Reparadores Bot |
+| :man:F. Javier Romero Yesares  | [fromeroy](https://github.com/fromeroy) | francisco.romero.altran@axa-groupsolutions.com | EB Partners |
+| :man:Santi Pérez  | [santiago-perez](https://github.com/santiago-perez) | santiago.perez.altran@axa-groupsolutions.com | MyAXA |
+| :man:Javier Blanco Martinez    | [javierblancosp](https://github.com/javierblancosp) | javier.blanco@axa-groupsolutions.com | Mobile Backend & MANA |
+| :man:Xavier Redondo Bolet      | [Xavier-Redondo](https://github.com/Xavier-Redondo) | xavier.redondo@axa-groupsolutions.com | AXA Home |
+| :man:Jesús Seijas              | [jesus-seijas](https://github.axa.com/jesus-seijas) | jesus.seijas@axa-groupsolutions.com |     |
+| :woman:Francisca Calabria | [FCalabria](https://github.com/FCalabria) | francisca.calabria@axa-groupsolutions.com    | AXA Advice (Berater) |
+| :man:Iván Megías | [Ivan-megias](https://github.com/ivan-megias) | ivan.megias.altran@axa-groupsolutions.com  | EB Partners |
+| :man:Martín Palmieri | [Martin-palmieri](https://github.com/martin-palmieri) | martin.palmieri.amaris@axa-groupsolutions.com  | EB Partners |
+| :woman:Ana Gamito | [Ana-gamito](https://github.com/ana-gamito) | ana.gamito@axa.com  | AXA LIVE - HR |
+| :woman:Andrea Martins   | [martinsandrea](https://github.com/martinsandrea) | andrea.martins.altran@axa-groupsolutions.com    | AxaLive |
+| :man:Eric Lara   | [eric-lara-altran](https://github.com/eric-lara-altran) | eric.lara.altran@axa-groupsolutions.com    | OpenPass |
 
