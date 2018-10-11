@@ -15,7 +15,7 @@ Also we would like to share knowledge through **code examples** and **best pract
 4. [ Proxy :gun:](#proxy)
 5. [ AXA Libraries & Projects :notebook:](#projects)
 6. [ OpenPaaS :rocket:](#openpaas)
-7. [ Collaborators ::muscle: ](#collaborators)
+7. [ Collaborators :muscle: ](#collaborators)
 
 <a name="desc"></a>
 ## Getting started
