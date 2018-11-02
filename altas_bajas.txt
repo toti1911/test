@@ -1,0 +1,274 @@
+  altas: {
+    medofi: {
+      requirements:
+        'Antes de iniciar la solicitud, debes tener en cuenta lo siguiente:\n- Se van a requerir una serie de datos sin los cuales no podrás continuar.\n- Todos los datos y documentos introducidos deben ser reales.',
+    },
+    medor: {
+      requirements:
+        'Vas a iniciar una solicitud de alta de un MEDOR. Por favor, antes de comenzar ten en cuenta lo siguiente:\n- Se te van a requerir una serie de documentos en función del tipo de Mediador: NIF/CIF, escrituras, justificante de titularidad de la cuenta corriente, autorización en la DGSFP&#046;&#046;&#046; Asegúrate de que dispones de dicha documentación.\n- Si proviene de otro medor y deseas que se mantengan las mismas comisiones, debes solicitarlo al buzón de Comisiones (ordenacioncomercial.comisiones@axa.com) para que te faciliten la correspondiente autorización y aportarla junto con el resto de documentos.\n- Si se trata de un Agente/Agencia Vinculado, recuerda que debe estar autorizado en el registro de la DGSFP a colaborar con AXA.\n- No se permite que un Agente Exclusivo o un Colaborador Externo esté inscrito en la DGSFP como Agente de otra Entidad. En caso de que lo estuviera, se debe aportar un burofax certificado y con acuse de recibo notificando la baja a la otra Entidad. No se admitirá ningún otro tipo de comunicación, puesto que esa es la única que admite la DGSFP.',
+      requestEmail: 'Por favor indica tu dirección de e-mail',
+      request: 'Por favor, introduce a continuación el código de Medor del que va a depender el Medofi a dar de alta.',
+      incorrectEmail: 'El e-mail introducido es incorrecto.',
+      incorrectNIF:
+        'El NIF introducido es incorrecto. Introdúzcalo de nuevo siguiendo el siguiente formato válido: NIF (XXXXXXXXY) y NIE (YXXXXXXXZ).',
+      incorrectCIF:
+        'El CIF introducido es incorrecto. Introdúzcalo de nuevo siguiendo el siguiente formato válido: CIF (AXXXXXXXX).',
+      incorrectIBAN:
+        'El IBAN introducido es incorrecto.',
+      incorrectCP:
+        'El código postal introducido es incorrecto.',
+      incorrectMovil:
+        'El teléfono móvil introducido es incorrecto.',
+      tituloAcademicoMandatory:
+        'Es obligatorio completar al menos 1 título académico.',
+      cursoMandatory:
+        'Es obligatorio completar al menos 1 curso.',
+      experienciaProfesionalMandatory:
+        'Es obligatorio completar al menos 1 experiencia profesional.',
+      incorrect:
+        'El código de Medor es incorrecto.\nPor favor, vuelve a introducirlo con un formato numérico de 4 a 6 dígitos.',
+      correct:
+        'El código de Medor es correcto.\nSe va a dar de alta un Medofi del siguiente Medor: {nombre} {apellido1} {apellido2} \n¿Estás de acuerdo?',
+      correctWithoutNif:
+        'El medor introducido es correcto. Se va a dar de alta un medofi del medor correspondiente: {nombre} {apellido1} {apellido2}. ¿Estás de acuerdo?',
+      expired: 'El código de Medor introducido está dado de baja.\nPor favor, introduce un código de Medor en vigor.',
+      notFound: 'Medor no encontrado.',
+      notMedor: 'El código introducido es un Medofi, no es posible la apertura.',
+      dtNotEqual:
+        'No tienes autorización para solicitar el alta del Medofi indicado al no pertenecer a tu dirección territorial.',
+      gestorComercialNotEqual:
+        'No tienes autorización para solicitar el alta del Medofi indicado al no pertenecer a tu gestor comercial.',
+      zonaNotEqual: 'No tienes autorización para solicitar el alta del Medofi indicado al no pertenecer a tu zona.'
+    },
+    menuEstructuraComercial: {
+      title: 'Indica la estructura comercial del Medofi a dar de alta:',
+      igualMedor: 'Es igual de la del Medor',
+      distintaMedor: 'Es distinta de la del Medor'
+    },
+    confirmEstructuraComercial: {
+      requestIgualMedor:
+        'Se va a proceder a dar de alta el Medofi solicitado. Por favor, comprueba que los datos del Gestor Comercial al que se va a signar son correctos:\n- DT: {dt}\n- Oficina: {oficina}\n- Zona Comercial: {zonaComercial}\n- Gestor Comercial: {gestorComercial}\n- Red del Medor: {red}',
+      requestDistintaMedor:
+        'Se va a proceder a dar de alta el Medofi solicitado. Por favor, comprueba que los datos del Gestor Comercial al que se va a signar son correctos:\n- DT: {dt}\n- Oficina: {oficina}\n- Zona Comercial: {zonaComercial}\n- Gestor Comercial: {gestorComercial}\n- Red del Medor: {red}'
+    },
+    gestorComercial: {
+      request: 'Indícanos el Gestor Comercial al que pertenecerá el Medofi a dar de alta.',
+      incorrect:
+        'El Gestor Comercial introducido es erróneo.\nPor favor, vuelve a introducirlo con un formato numérico de 4 a 6 dígitos.'
+    },
+    motivo: {
+      request: 'Indica el motivo por el que solicitas el alta del Medofi:',
+      default: 'Selecciona una opción',
+      cofinanciado: 'Cofinanciado',
+      defensa: 'Defensa',
+      diferenteNegocio: 'Diferente negocio',
+      flota: 'Flota',
+      multitarificador: 'Multitarificador',
+      errorMultitarificador:
+        'No es posible seleccionar este motivo para el mediador indicado ya que no pertenece a una red de Corredor',
+      proyectoTheira: 'Proyecto Theira',
+      traspaso: 'Traspaso',
+      planRetorno: 'Plan retorno',
+      lb: 'LB',
+      otros: 'Otros'
+    },
+    multitarificador: {
+      request: 'Indica el multitarificador:',
+      ebroker: 'eBroker',
+      qs: 'QS',
+      mpm: 'MPM',
+      gecose: 'GECOSE',
+      shopnetBrokers: 'SHOPNET BROKERS',
+      ainur: 'AINUR',
+      codeoscopic: 'CODEOSCOPIC',
+      otro: 'Otro proveedor'
+    },
+    observaciones: {
+      request: 'Indica el motivo por el que solicitas el alta del Medofi.'
+    },
+    contabilidad: {
+      text:
+        'Se va a realizar el alta de un Medofi con los siguientes datos:\n- Facultad de cobro: {facultadCobro}\n- CAS: {cas}\n- Forma de pago: {formaPago}\n- Intervenido: {intervenido}'
+    },
+    datosPersonales: {
+      requestHerencia: '¿Los datos personales son heredados del Medor?',
+      comunication:
+        'La siguiente información corresponde al Medor:\n- Tipo de vía: {tipoVia}\n- Dirección: {direccion}\n- Número de vía: {numVia}\n- Ampliación: {ampliacion}\n- CP: {cp}\n- Población: {poblacion}\n- Email: {email}\n- Telf. fijo: {fijo}\n- Telf. móvil: {movil}\n- Redes Sociales: {redesSociales}',
+      requestTipoVia: 'Indica el tipo de vía:',
+      tipoViaValues: {
+        AG: 'Agrupación',
+        AL: 'Alameda',
+        AP: 'Apartamento',
+        AV: 'Avenida',
+        BD: 'Bajada',
+        BC: 'Barranco',
+        BO: 'Barrio',
+        BL: 'Bloque',
+        CL: 'Calle',
+        CJ: 'Callejón',
+        CM: 'Camino',
+        CR: 'Carretera',
+        CS: 'Casas',
+        CH: 'Chalet',
+        CO: 'Colonia',
+        CT: 'Cuesta',
+        ED: 'Edificio',
+        GL: 'Glorieta',
+        GR: 'Grupo',
+        LG: 'Lugar',
+        MC: 'Mercado',
+        MZ: 'Manzana',
+        PQ: 'Parque',
+        PD: 'Partida',
+        PJ: 'Pasaje',
+        PS: 'Paseo',
+        PZ: 'Plaza',
+        PL: 'Plazuela',
+        PB: 'Poblado',
+        PG: 'Polígono',
+        PR: 'Prolongación',
+        RA: 'Riera',
+        RB: 'Rambla',
+        RD: 'Ronda',
+        SN: 'Senda',
+        SD: 'Subida',
+        TT: 'Torrente',
+        TR: 'Travesia',
+        UR: 'Urbanización',
+        DS: 'Diseminado'
+      },
+      requestDireccion: 'Introduce la dirección del Medofi a dar de alta.',
+      requestNumVia: 'Introduce el número de vía del Medofi a dar de alta',
+      requestInputAmpliacion: '¿Quieres introducir el resto de la dirección del Medofi a dar de alta? (Es opcional).',
+      requestAmpliacion: 'Introduce el resto de la dirección del Medofi (Ej: edificio, bloque, escalera,etc).',
+      requestCP: 'Introduce el código postal del Medofi a dar de alta.',
+      incorrectCP:
+        'El código postal es erróneo. \nPor favor, vuelve a introducirlo con un formato numérico de 5 dígitos.',
+      requestEmail: 'Introduce el e-mail del medofi a dar de alta.',
+      incorrectEmail: 'El e-mail no es válido.\nPor favor, vuelve a introducirlo.',
+      requestCCC: 'Introduce la cuenta bancaria/CCC (20 dígitos) del Medofi a dar de alta.',
+      incorrectCCC: 'La cuenta bancaria/CCC es incorrecta.\nPor favor, vuelve a introducirla. ',
+      requestFijo: 'Introduce el teléfono fijo del Medofi a dar de alta (sin espacios).',
+      incorrectFijo: 'El teléfono fijo es incorrecto.\nPor favor, vuelve a introducirlo.',
+      requestMovil: 'Introduce el móvil del Medofi a dar de alta (sin espacios).',
+      incorrectMovil: 'El móvil es incorrecto.\nPor favor, vuelve a introducirlo. ',
+      requestInputRedesSociales: '¿Quieres introducir las redes sociales del Medofi a dar de alta? (Es opcional).',
+      requestRedesSociales: 'Introduce las redes sociales del Medofi a dar de alta (separadas por punto y coma).',
+      requestPoblacion: 'Introduce la población del Medofi a dar de alta.'
+    },
+    competencias: {
+      request: '¿Qué competencias tendrá el Medofi a dar de alta?',
+      default: 'Selecciona una opción',
+      choices: [
+        'Alta usuario No, solo Incluir ámbito de Medor',
+        'TODOS ( S/ política de red)',
+        'Igual al Medor',
+        'Tarificar',
+        'Tarificar y Emitir sin Medianet',
+        'Tarifica y Consulta Web y RPS sin emisión',
+        'Tarifica y Consulta Web y RPS sin emisión y consultas Medianet',
+        'Solo consultas Medianet'
+      ]
+    },
+    comunicacionInicioProceso: {
+      text:
+        'Iniciamos el proceso de alta del Medofi con los datos introducidos.\nPróximamente te comunicaremos vía email el código de Medofi.',
+      solicitud: 'La solicitud se ha registrado con Id:  {idSolicitud}.'
+    }
+  },
+  bajas: {
+    medor: {
+      aviso: {
+        inicio: 'Hola, vas a iniciar el proceso de baja de un Medor, para esto, recuerda que necesitas tener:\n1) La autorización del canal.\n2) La solicitud de la baja, en  caso de ser a petición del Medor.\n3) El DNI del Medor escaneado.\n\nRecuerda que debes realizar la revisión de material y/o deudas pendientes del Medor a dar de baja.'
+      },
+      docs: {
+        requestAuth: 'Adjunta por favor la autorización del canal.',
+        requestCarta:
+          'Adjunta por favor el escrito de solicitud de baja que debe contener:nombre, apellidos, DNI, firma y expresado el deseo de darse de baja',
+        requestDni:
+          'Adjunta por favor el DNI escaneado del solicitante de la baja, en caso de ser persona física o del representante legal que firma la baja, en caso de ser persona jurídica.'
+      },
+      continuarProceso: '¿Quieres continuar el proceso?',
+      requestEmail: 'Por favor indica tu dirección de e-mail',
+      avisoRed:
+        'El cambio de cartera cuando la red del medor origen y destino es distinta se debe tratar de forma manual, nos pondremos en contacto con el solicitante para realizar la modificación',
+      datosMedor: {
+        info:
+          'Los datos del MEDOR a dar de baja son los siguientes: \n- Nombre: {nombre}\n- NIF/CIF: {nif}\n- Red: {red}\n- PF o PJ: {pfpj}\n- Email: {email}\n- Manager comercial: {managerComercial}\n- Dirección: {direccion}\n- Código Postal y Localidad: {codigoPostal}\n- Fecha de alta: {fechaAlta}',
+        datosRepresentante: 'Datos del representante',
+        numeroBaja: 'Introduce el número de MEDOR a dar de baja',
+        notMedor: 'El código introducido no es un MEDOR.',
+        expired: 'El código de Medor introducido está dado de baja.\nPor favor, introduce un código de Medor en vigor.',
+        notFound: 'Medor no encontrado.',
+        sameMedor: 'El medofi es el mismo que el medor',
+        incorrect:
+          'El código de Medor es incorrecto.\nPor favor, vuelve a introducirlo con un formato numérico de 4 a 6 dígitos.'
+      },
+      bajaVoluntaria: {
+        aviso: 'Indica si se trata de una baja voluntaria del MEDOR o unilateral por parte de la compañía.',
+        pregunta: '¿Voluntaria por el MEDOR o decisión de la compañía?'
+      },
+      motivoBaja:
+        'Indica los motivos de la baja y en caso de reclamación al medor, indica qué tipo y datos necesarios (ejemplo: reclamación económica, desalojo de franquicia, reclamación de equipo informático&#046;&#046;&#046;): ',
+      traspasoCartera: {
+        pregunta: '¿Se ha de hacer el traspaso al código directo de la oficina?',
+        peticionDatos: 'Indica el código del MEDOR al que hay que traspasar la cartera',
+        datosMedor:
+          'Los datos del MEDOR a al que hay que traspasar la cartera son los siguientes: \n- Nombre: {nombre}\n- NIF/CIF: {nif}\n- Red: {red}\n- PF o PJ: {pfpj}\n- Email: {email}\n- Manager comercial: {managerComercial}\n- Dirección: {direccion}\n- Código Postal y Localidad: {codigoPostal}\n- Fecha de alta: {fechaAlta}',
+        notMedor: 'El código introducido no es un MEDOR.',
+        notFound: 'Medor no encontrado.',
+        notSameRed: 'Las redes deben coincidir',
+        notSameMedor: 'Los medores deben coincidir',
+        incorrect:
+          'El código de Medor es incorrecto.\nPor favor, vuelve a introducirlo con un formato numérico de 4 a 6 dígitos.'
+      },
+      errores: {
+        incorrectEmail: 'El e-mail introducido es incorrecto.',
+        medorIncorrecto:
+          'El número indicado no es correcto, los números de MEDOR deben tener 6 cifras, completando con ceros a la izquierda en caso de tener menos. Introduce nuevamente el número de MEDOR a dar de baja.',
+        medorNoPiramide: 'No es posible dar de baja este MEDOR ya que no pertenece a tu piramide.',
+        dtNotEqual:
+          'No tienes autorización para solicitar la baja del Medor indicado al no pertenecer a tu dirección territorial.',
+        medorNoExiste: 'El número indicado no existe, por favor, vuelve a introducir el número de MEDOR.'
+      },
+      inicioProcesoBaja: 'Procedemos a iniciar  el proceso para dar de baja el MEDOR indicado.',
+      solicitud: 'La solicitud ha finalizado con id {idSolicitud}.'
+    },
+    medofi: {
+      requirements:
+        'Antes de iniciar la solicitud, debes tener en cuenta lo siguiente:\n- Se van a requerir una serie de datos sin los cuales no podrás continuar.\n- Todos los datos y documentos introducidos deben ser reales.',
+      requestEmail: 'Por favor indica tu dirección de e-mail',
+      request: 'Introduce el código de Medofi a dar de baja.',
+      incorrectEmail: 'El e-mail introducido es incorrecto.',
+      incorrect:
+        'El Medofi no es correcto.\nPor favor, vuelve a introducirlo con un formato numérico de 4 a 6 dígitos.',
+      refused:
+        'No tienes autorización para solicitar la baja del Medofi indicado al no pertenecer a tu estructura comercial.',
+      expired: 'El Medofi indicado no está en vigor.',
+      notFound: 'Medofi no encontrado.',
+      equalMedor: 'No es posible dar de baja un Medor en esta opción.',
+      operationExists: 'Ya consta una operación de baja del Medofi indicado.',
+      comunication: 'El medofi introducido es de {nombre} {apellido1} {apellido2}.',
+      dtNotEqual:
+        'No tienes autorización para solicitar la baja del Medofi indicado al no pertenecer a tu dirección territorial.',
+      zonaNotEqual: 'No tienes autorización para solicitar la baja del Medofi indicado al no pertenecer a tu zona.'
+    },
+    comunicacionInicioProceso: {
+      comunication:
+        'Iniciamos el proceso de baja del Medofi con los siguientes datos:\n- Medofi Origen: {medofi}\n- Medofi Destino: {medofiDestino}',
+      solicitud: 'La solicitud se ha registrado con Id:  {idSolicitud}.',
+      solicitudMoreInfo:
+        'Procederemos a realizar la baja y traspaso de cartera en las fechas más próximas a los días 15, 20 y 25 (teniendo en cuenta días festivos y fines de semana). Estas fechas están establecidas con el fin de evitar incidencias en la visibilidad de las pólizas en los Medofis de destino.'
+    },
+    medofiDestino: {
+      request: 'Introduce el código de Medofi de destino.',
+      incorrect:
+        'El Medofi no es correcto.\nPor favor, vuelve a introducirlo con un formato numérico de 4 a 6 dígitos.',
+      refused:
+        'No tienes autorización para realizar el traspaso al Medofi destino indicado al no pertenecer al Medor del Medofi a dar de baja.',
+      expired: 'El Medofi indicado no está en vigor.',
+      same: 'El Medofi Origen y el Medofi Destino no pueden ser el mismo.',
+      notFound: 'Medofi no encontrado.',
+      comunication: 'El medofi destino introducido es de {nombre} {apellido1} {apellido2}.'
+    }
+  }
