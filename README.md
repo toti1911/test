@@ -66,7 +66,7 @@ Alternative:
 <a name="style"></a>
 ### Code guide style
 
-<img src="https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif" width="200" height="150" />
+<img src="https://media.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif" width="200" height="150" />
 
 :star: [Eslint](http://eslint.org/)
 
