@@ -2,7 +2,7 @@
 
 # Welcome to the Javascript Team <img width="40" height="40" src="https://github.com/toti1911/test/blob/master/js.png">
 
-Welcome to AXA Bcn Javascript Team! :raised_hands: You‘re about to become part of a world-class team of software engineering experts.
+Welcome to Bcn Javascript Team! :raised_hands: You‘re about to become part of a world-class team of software engineering experts.
 Innovation lies at the heart of our culture and we need your talent and expertise to stay ahead of the curve.
 We would like this to be a zone of sharing and consulting where all the collaborators can solve their doubts about
 how we are working as a team and some knowledge about the different projects that we are working on.
@@ -13,9 +13,9 @@ Also we would like to share knowledge through **code examples** and **best pract
 2. [ Code Style guide :pencil:](#style)
 3. [ Commits & Branchs :eyes:](#commits)
 4. [ Proxy :gun:](#proxy)
-5. [ AXA Libraries & Projects :notebook:](#projects)
-6. [ OpenPaaS :rocket:](#openpaas)
-7. [ Collaborators :muscle: ](#collaborators)
+5. [ OpenPaaS :rocket:](#openpaas)
+6
+. [ Collaborators :muscle: ](#collaborators)
 
 <a name="desc"></a>
 ## Getting started
@@ -27,12 +27,12 @@ Also we would like to share knowledge through **code examples** and **best pract
 
 - :heavy_check_mark: Install **Nose.js** [Download](https://nodejs.org/en/download/)
 - :heavy_check_mark: Install **NVM** [Download](https://github.com/creationix/nvm) in order to be able to switch between NodeJS versions.
-- :heavy_check_mark: Configure **NPM** Private repository access: [Guide](https://axagroupsolutions.atlassian.net/wiki/display/AGSD/Using+Artifactory+as+NPM+private+registry)
+- :heavy_check_mark: Configure **NPM** Private repository access: [Guide](https://google.com)
 
 #### Test environment:
 
 ```bash
-git clone https://github.com/AXA-GROUP-SOLUTIONS/amf-commons-node.git
+git clone https://github.com/test-commons-node.git
 cd amf-commons-node.git
 npm install
 ```
@@ -59,7 +59,7 @@ Alternative:
 ### other recommended tools :top:
 
 + **SourceTree**: Git client [Download](https://www.sourcetreeapp.com/)
-+ Configure **eslint** hook. [Guide](https://axagroupsolutions.atlassian.net/wiki/display/AGSD/HOW+TO+Configure+ESLint+in+GIT+hook)
++ Configure **eslint** hook. [Guide](https://google.com)
 + **conEmu**:  Windows console emulator with tabs [Download](https://sourceforge.net/projects/conemu/)
 + **Robomongo**: Native and cross-platform MongoDB manager [Download](https://robomongo.org/download)
 
@@ -78,7 +78,7 @@ Alternative:
 
 **Want more?** :blue_book: --> More details about why we should lint our javascript code and our styleguide specs can be found [here](./docs/style.md).
 
-Also, you can see the [AXA France Style Guide](https://github.axa.com/axa-france/af-dev-guidelines).
+Also, you can see the [Style Guide](https://google.com).
 
 <a name="commits"></a>
 ### Commits conventions :computer:
@@ -95,10 +95,10 @@ You can save time and memory using the next VSCode plugin: https://github.com/Kn
 
 <img src="https://media.giphy.com/media/cFkiFMDg3iFoI/giphy.gif" width="200" height="150" />
 
-Branching strategy is the way AXA Group Solutions Spain will use GIT for managing the lifecycle of the source code.
+Branching strategy is the way will use GIT for managing the lifecycle of the source code.
 Also the branching strategy is aligned with the CI platform tasks in order to manage release generation.
 
-You can find the current branching strategy [here](https://axagroupsolutions.atlassian.net/wiki/display/AGSD/Branching+strategy+and+CI)
+You can find the current branching strategy [here](https://google.com)
 
 :warning: **Remember that all the teams has to follow this strategy**
 
@@ -142,10 +142,6 @@ sudo gem install --http-proxy http://192.168.62.5:3128 --https-proxy https://192
 + TypeScript
 
 <a name="desc"></a>
-### AXA libraries
-
-+ [amf-commons](https://github.com/AXA-GROUP-SOLUTIONS/amf-commons-node)
-+ TBC
 
 ## Projects
 
