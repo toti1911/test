@@ -81,7 +81,7 @@ Also the branching strategy is aligned with the CI platform tasks in order to ma
 
 You can find the current branching strategy [here](https:google.com)
 
-:warning: **Remember that all the teams has to follow this strategy**
+**Remember that all the teams has to follow this strategy**
 
 
 ### Proxy
