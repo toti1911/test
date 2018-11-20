@@ -1,6 +1,6 @@
 # Welcome to the Javascript Team
 
-Welcome to AXA Bcn Javascript Team! You‘re about to become part of a world-class team of software engineering experts.
+Welcome to Bcn Javascript Team! You‘re about to become part of a world-class team of software engineering experts.
 Innovation lies at the heart of our culture and we need your talent and expertise to stay ahead of the curve.
 We would like this to be a zone of sharing and consulting where all the collaborators can solve their doubts about
 how we are working as a team and some knowledge about the different projects that we are working on.
@@ -15,12 +15,12 @@ The first thing you should do is consult the section [Accounts](./docs/accounts.
 
 + Install [Node.js](https://nodejs.org/en/download/)
 + Install [NVM](https://github.com/creationix/nvm) in order to be able to switch between NodeJS versions.
-+ Configure NPM Private repository access: [Guide](https://axagroupsolutions.atlassian.net/wiki/display/AGSD/Using+Artifactory+as+NPM+private+registry)
++ Configure NPM Private repository access: [Guide](https://google.com)
 
 Test environment:
 
 ```bash
-git clone https://github.com/AXA-GROUP-SOLUTIONS/amf-commons-node.git
+git clone https://github.com/test-commons-node.git
 cd amf-commons-node.git
 npm install
 ```
@@ -48,7 +48,7 @@ Alternative:
 
 + SourceTree: Git client [Download](https://www.sourcetreeapp.com/)
 
-Configure eslint hook. [Guide](https://axagroupsolutions.atlassian.net/wiki/display/AGSD/HOW+TO+Configure+ESLint+in+GIT+hook)
+Configure eslint hook. [Guide](https://google.com)
 
 + conEmu:  Windows console emulator with tabs [Download](https://sourceforge.net/projects/conemu/)
 + Robomongo: Native and cross-platform MongoDB manager [Download](https://robomongo.org/download)
@@ -62,7 +62,7 @@ Configure eslint hook. [Guide](https://axagroupsolutions.atlassian.net/wiki/disp
 
 More details about why we should lint our javascript code and our styleguide specs can be found [here](./docs/style.md).
 
-Also, you can see the [AXA France Style Guide](https://github.axa.com/axa-france/af-dev-guidelines).
+Also, you can see the [Style Guide](https://googlecom).
 
 ### Commits conventions
 
@@ -76,10 +76,10 @@ You can save time and memory using the next VSCode plugin: https://github.com/Kn
 
 ### Branching strategy
 
-Branching strategy is the way AXA Group Solutions Spain will use GIT for managing the lifecycle of the source code.
+Branching strategy is the way  will use GIT for managing the lifecycle of the source code.
 Also the branching strategy is aligned with the CI platform tasks in order to manage release generation.
 
-You can find the current branching strategy [here](https://axagroupsolutions.atlassian.net/wiki/display/AGSD/Branching+strategy+and+CI)
+You can find the current branching strategy [here](https:google.com)
 
 :warning: **Remember that all the teams has to follow this strategy**
 
@@ -118,12 +118,6 @@ ALL_PROXY=http://192.168.62.5:3128 brew install <name>
 sudo gem install --http-proxy http://192.168.62.5:3128 --https-proxy https://192.168.62.5:3128 <gema>
 ```
 
-
-### AXA libraries
-
-+ [amf-commons](https://github.com/AXA-GROUP-SOLUTIONS/amf-commons-node)
-+ TBC
-
 ### JavaScript transpilers/compilers
 
 + Babel
@@ -136,25 +130,3 @@ Check [our projects list](./docs/projects.md) out.
 ## OpenPaaS
 
 Check [a list of OpenShift bash scripts to use in your terminal](./scripts/openshift).
-
-## Collaborators
-
-| Name                      | Github account |  Email                                        | Current project |
-|---------------------------|----------------|-----------------------------------------------|-----------------|
-| Beatriz Martín de Juan    | [bmdjuan](https://github.com/bmdjuan) | beatriz.martin@axa.com    | IceBox |
-| Luis Prieto Fernández     | [luisprieto-sp](https://github.com/luisprieto-sp) | luis.prieto.sopra@axa.com | AUTO Bot |
-| Artem Pasichnyk           | [artemidas](https://github.com/artemidas) | artem.pasichnyk.amaris@axa.com  | OpenPass |
-| Silvia de León            | [sleongonzalez](https://github.com/sleongonzalez) | silvia.leon.sopra@axa.com | MyAXA |
-| Oriol Homedes del Barrio  | [oriol-homedes](https://github.com/oriol-homedes) | oriol.homedes.pasiona@axa.com | AXA France Websites (Live, HR, Prevention, Mediazone, Newstoprotect) |
-| Fran Herrero Pérez        | [franher](https://github.com/franher) | francisco.herrero@axa.com | Mobile Backend & MANA |
-| Jose Lara de Lamo         | [jose-lara](https://github.com/jose-lara) | jose.lara.sopra@axa.com | Reparadores Bot |
-| F. Javier Romero Yesares  | [fromeroy](https://github.com/fromeroy) | francisco.romero.altran@axa.com | EB Partners |
-| Santi Pérez  | [santiago-perez](https://github.com/santiago-perez) | santiago.perez.altran@axa.com | MyAXA |
-| Javier Blanco Martinez    | [javierblancosp](https://github.com/javierblancosp) | javier.blanco@axa.com | Mobile Backend & MANA |
-| Xavier Redondo Bolet      | [Xavier-Redondo](https://github.com/Xavier-Redondo) | xavier.redondo@axa.com | AXA Home |
-| Jesús Seijas              | [jesus-seijas](https://github.axa.com/jesus-seijas) | jesus.seijas@axa.com |     |
-| Francisca Calabria | [FCalabria](https://github.com/FCalabria) | francisca.calabria@axa.com    | AXA Advice (Berater) |
-| Iván Megías | [Ivan-megias](https://github.com/ivan-megias) | ivan.megias.altran@axa.com  | EB Partners |
-| Martín Palmieri | [Martin-palmieri](https://github.com/martin-palmieri) | martin.palmieri.amaris@axa.com  | EB Partners |
-| Ana Gamito | [Ana-gamito](https://github.com/ana-gamito) | ana.gamito@axa.com  | AXA LIVE - HR |
-| Eric Lara   | [eric-lara-altran](https://github.com/eric-lara-altran) | eric.lara.altran@axa.com    | OpenPass |
